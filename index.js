@@ -4,9 +4,6 @@ const fetch = require('node-fetch')
 //Adds Gateway Intents
 const bot = new Discord.Client({ ws: { intents:['GUILDS','GUILD_MESSAGES']}});
 
-//Token
-//const token = 'ODEwMzM4MjI0MTI3NzM3ODY2.YCiMRw._q1IpGHNORpbq0N-dXJ7uWif0L0';
-
 //Date Vars
 var today = new Date();
 var dd = String(today.getDate()).padStart(2,'0');
